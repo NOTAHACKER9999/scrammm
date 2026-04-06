@@ -1,10 +1,10 @@
-﻿{
+{
   "buildCommand": "npm run build",
   "outputDirectory": "public",
   "cleanUrls": true,
   "headers": [
     {
-      "source": "/(.*)",
+      "source": "/:path*",
       "headers": [
         {
           "key": "Cross-Origin-Opener-Policy",
